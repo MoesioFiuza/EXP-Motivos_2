@@ -1,7 +1,7 @@
 import pandas as pd
 from openpyxl import load_workbook
 
-planilha = r'C:\Users\moesios\Desktop\AJUSTES P14\matrizes.xlsx'
+planilha = r'o caminho da planilha vai aqui'
 
 df_viagens = pd.read_excel(planilha, sheet_name='Planilha1')
 
